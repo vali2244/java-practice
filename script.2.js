@@ -6,8 +6,9 @@ const log=()=>{
 const bu1=()=>{
     if(document.getElementById(`hm2`).style.display =`flex`)
     document.getElementById(`hm1`).style.display =`none`
+    
     else{
-        document.getElementById(`on`).style.display=`flex`
+        document.getElementById(`off`).style.backgroundColor =`yellow`
     }
 }
 
@@ -15,7 +16,7 @@ const bu2=()=>{
     if(document.getElementById(`hm1`).style.display =`flex`)
     document.getElementById(`hm2`).style.display =`none`
     else{
-        document.getElementById(`off`).style.display=`flex`
+        document.getElementById(`on`).style.backgroundColor =`green`
     }
 }
 const verify=()=>{
